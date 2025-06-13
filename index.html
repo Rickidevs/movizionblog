@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberDev | Hacker Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="terminal-loader">
+        <div class="terminal-header">
+            <div class="terminal-title">System Boot</div>
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+        </div>
+        <div class="text">Initializing system...</div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="terminal-nav">
+                <div class="terminal-nav-header">
+                    <span class="blinking-cursor">root@cyberdev:~$</span>
+                    <span class="nav-command">./portfolio.sh</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about" class="nav-link"><span class="prompt">></span> about</a></li>
+                        <li><a href="#skills" class="nav-link"><span class="prompt">></span> skills</a></li>
+                        <li><a href="#projects" class="nav-link"><span class="prompt">></span> projects</a></li>
+                        <li><a href="#contact" class="nav-link"><span class="prompt">></span> contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="terminal-section">
+                <div class="typewriter">
+                    <h1>Welcome to <span class="highlight">CyberDev</span> terminal</h1>
+                </div>
+                <div class="matrix-text"></div>
+                <p class="typing-text" data-text="Security enthusiast | Full-stack developer | Ethical hacker"></p>
+                <button class="hacker-btn" id="hack-btn">Execute System Scan</button>
+            </section>
+
+            <section id="about" class="terminal-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">about.txt</div>
+                        <div class="terminal-controls">
+                            <div class="control close"></div>
+                            <div class="control minimize"></div>
+                            <div class="control maximize"></div>
+                        </div>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">></span> whoami</p>
+                        <p class="command-result">John Doe (aka CyberDev)</p>
+                        
+                        <p><span class="prompt">></span> cat about.txt</p>
+                        <p class="command-result">
+                            I'm a cybersecurity specialist and full-stack developer with 5+ years of experience 
+                            in building secure web applications and penetration testing. My passion lies in 
+                            creating robust systems while understanding how to break them ethically.
+                        </p>
+                        
+                        <p><span class="prompt">></span> locate certifications</p>
+                        <p class="command-result">
+                            - Certified Ethical Hacker (CEH)<br>
+                            - OSCP<br>
+                            - AWS Certified Security Specialist<br>
+                            - CISSP
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="terminal-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">skills.sh</div>
+                        <div class="terminal-controls">
+                            <div class="control close"></div>
+                            <div class="control minimize"></div>
+                            <div class="control maximize"></div>
+                        </div>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">></span> ./skills.sh</p>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>Security</h3>
+                                <ul class="skill-list">
+                                    <li>Penetration Testing</li>
+                                    <li>Vulnerability Assessment</li>
+                                    <li>Network Security</li>
+                                    <li>Cryptography</li>
+                                    <li>Forensics</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Development</h3>
+                                <ul class="skill-list">
+                                    <li>JavaScript/Node.js</li>
+                                    <li>Python</li>
+                                    <li>React</li>
+                                    <li>SQL/NoSQL</li>
+                                    <li>Docker</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Tools</h3>
+                                <ul class="skill-list">
+                                    <li>Metasploit</li>
+                                    <li>Burp Suite</li>
+                                    <li>Wireshark</li>
+                                    <li>Nmap</li>
+                                    <li>Kali Linux</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="terminal-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">projects/</div>
+                        <div class="terminal-controls">
+                            <div class="control close"></div>
+                            <div class="control minimize"></div>
+                            <div class="control maximize"></div>
+                        </div>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">></span> ls -la projects/</p>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h3>SecureAuth Framework</h3>
+                                <p>Multi-factor authentication system with biometric verification</p>
+                                <div class="tech-tags">
+                                    <span>Node.js</span>
+                                    <span>WebAuthn</span>
+                                    <span>OAuth 2.0</span>
+                                </div>
+                                <button class="hacker-btn">View Details</button>
+                            </div>
+                            <div class="project-card">
+                                <h3>Vulnerability Scanner</h3>
+                                <p>Automated web application vulnerability detection tool</p>
+                                <div class="tech-tags">
+                                    <span>Python</span>
+                                    <span>SQLi</span>
+                                    <span>XSS</span>
+                                </div>
+                                <button class="hacker-btn">View Details</button>
+                            </div>
+                            <div class="project-card">
+                                <h3>Encrypted Chat</h3>
+                                <p>End-to-end encrypted messaging platform</p>
+                                <div class="tech-tags">
+                                    <span>React</span>
+                                    <span>WebSockets</span>
+                                    <span>AES-256</span>
+                                </div>
+                                <button class="hacker-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="terminal-section">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">contact.exe</div>
+                        <div class="terminal-controls">
+                            <div class="control close"></div>
+                            <div class="control minimize"></div>
+                            <div class="control maximize"></div>
+                        </div>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">></span> ./contact.exe</p>
+                        <form id="contact-form" class="hacker-form">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required class="hacker-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required class="hacker-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" required class="hacker-input"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="hacker-btn">Send Message</button>
+                            </div>
+                        </form>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="#" class="social-link"><i class="fab fa-hackerrank"></i> HackerRank</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="terminal-footer">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-title">system.log</div>
+                    <div class="terminal-controls">
+                        <div class="control close"></div>
+                        <div class="control minimize"></div>
+                        <div class="control maximize"></div>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">></span> cat /var/log/system.log</p>
+                    <p class="command-result">
+                        [SYSTEM] Session started: 2023-07-15 14:30:45 UTC<br>
+                        [SECURITY] Firewall: ACTIVE<br>
+                        [NETWORK] All systems operational<br>
+                        [USER] Last login: 5 minutes ago from 192.168.1.100
+                    </p>
+                    <p class="copyright">© 2023 CyberDev | All systems secured</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
